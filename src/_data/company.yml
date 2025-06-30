@@ -1,0 +1,22 @@
+####################
+# CONFIG
+####################
+name:
+phone: 01 85 53 75 10
+tel: 0185537510
+
+email: "contact@bhgroupe.fr, adrien@bhgroupe.fr"
+
+address: 7 avenue de l’Orme à Martin, 91080 Courcouronnes
+
+websiteAddr: bhinternet.fr
+website: 
+
+recaptcha:
+  client: 6Lca_0grAAAAADLoA4mDt-EgpGlYYCJudznM_kSU
+  server: 6Lca_0grAAAAAH5VgcZ8vC0Qh50VT88X0WkkOAuv
+  
+lang: fr
+url:
+  notify: 'https://jgviaboye9.execute-api.eu-west-3.amazonaws.com/prod/notify'
+  redirect: '/message-envoye'
