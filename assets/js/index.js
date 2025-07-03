@@ -172,16 +172,16 @@ $(document).ready(function () {
 });
 
 
-$("body").niceScroll({
-  cursorcolor:"#0397D9",
-  cursorwidth:"10px",
-  background:"rgb(221, 221, 221)",
-  cursorborder:"0",
-  cursorborderradius:"5px",
-  autohidemode: false,
-  scrollspeed: 120,
-  hwacceleration: false,
-});
+// $("body").niceScroll({
+//   cursorcolor:"#0397D9",
+//   cursorwidth:"10px",
+//   background:"rgb(221, 221, 221)",
+//   cursorborder:"0",
+//   cursorborderradius:"5px",
+//   autohidemode: false,
+//   scrollspeed: 120,
+//   hwacceleration: false,
+// });
 
 $("#myModal").on('hidden.bs.modal', function (e) {
   $("#myModal iframe").attr("src", $("#myModal iframe").attr("src"));

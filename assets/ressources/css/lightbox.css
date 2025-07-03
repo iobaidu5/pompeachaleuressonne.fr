@@ -109,7 +109,7 @@ body:after {
 }
 
 .lb-prev:hover {
-  background: url(../../img/lightbox/prev.png) left 48% no-repeat
+  background: url(../../img/prev.png) left 48% no-repeat;
 }
 
 .lb-next {
@@ -118,7 +118,7 @@ body:after {
 }
 
 .lb-next:hover {
-  background: url(../../img/lightbox/next.png) right 48% no-repeat
+  background: url(../../img/next.png) right 48% no-repeat
 }
 
 .lb-dataContainer {
