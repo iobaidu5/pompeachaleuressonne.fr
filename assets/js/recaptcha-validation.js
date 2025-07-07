@@ -1,6 +1,6 @@
 
-const recaptcha_site_key = '';
-const recaptcha_secret_key = '';
+const recaptcha_site_key = '6LfX2norAAAAADRyELy81mKqbedx4X0zGVhVigDb';
+const recaptcha_secret_key = '6LfX2norAAAAAO9B8JxPte_VR2b0jjeGE0LEp085';
 
 /**
  * Verify reCAPTCHA token with Google's API
