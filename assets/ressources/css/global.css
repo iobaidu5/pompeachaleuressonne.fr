@@ -12,7 +12,8 @@ figure {
 html {
   font-family: sans-serif;
   -ms-text-size-adjust: 100%;
-  -webkit-text-size-adjust: 100%
+  -webkit-text-size-adjust: 100%;
+  scroll-behavior: smooth !important;
 }
 
 article,
@@ -7114,4 +7115,33 @@ footer h3 {
   .to-100{
     width: 100% !important;
   }
+}
+
+.d-flex {
+  display: flex;;
+}
+
+.align-items-center {
+  align-items: center;
+}
+
+.justify-content-center {
+  justify-content: center;
+}
+
+.text-black {
+  color: #000 !important;
+}
+
+.text-white {
+  color: #fff !important;
+}
+
+.py-0 {
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+}
+
+.w-100 {
+  width: 100% !important;
 }

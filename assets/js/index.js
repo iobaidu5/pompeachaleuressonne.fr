@@ -5,6 +5,8 @@ $(document).ready(function () {
     .addClass("active");
 });
 
+new WOW().init();
+
 window.onscroll = function() {myFunction()};
 
 var header = document.getElementById("menu");
@@ -142,9 +144,11 @@ $(document).ready(function(){
     infiniteLoop: true,
 
     });
-});
 
-new WOW().init();
+    $(document).on('click', '.bx-prev, .bx-next, .bx-pager-link', function (e) {
+      e.preventDefault();
+    });
+});
 
 
 $(window).scroll(function(){
@@ -197,7 +201,6 @@ $(".nav-pills li a").click(function(e) {
       scrollTop: position - 200
   } , 'slow' );
 });
-
 
 
 function setSrc(id, src){

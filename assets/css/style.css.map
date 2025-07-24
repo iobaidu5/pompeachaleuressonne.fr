@@ -5,8 +5,8 @@
 		"style.scss"
 	],
 	"sourcesContent": [
-		"body{\r\n  scroll-behavior: smooth !important;\r\n}"
+		"html{\r\n  scroll-behavior: smooth !important;\r\n}\r\n\r\nbody{\r\n  scroll-behavior: smooth !important;\r\n}"
 	],
 	"names": [],
-	"mappings": "AAAA,AAAA,IAAI,AAAA,CACF,eAAe,CAAE,iBAAiB,CACnC"
+	"mappings": "AAAA,AAAA,IAAI,AAAA,CACF,eAAe,CAAE,iBAAiB,CACnC,AAED,AAAA,IAAI,AAAA,CACF,eAAe,CAAE,iBAAiB,CACnC"
 }
