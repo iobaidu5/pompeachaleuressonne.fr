@@ -58,8 +58,8 @@
 
 
     <!-- Google reCAPTCHA -->
-    <!-- <script src="https://www.google.com/recaptcha/api.js?render=6LfX2norAAAAADRyELy81mKqbedx4X0zGVhVigDb"></script> -->
-    
+    <!-- <script src="https://www.google.com/recaptcha/api.js?render=6LfX2norAAAAADRyELy81mKqbedx4X0zGVhVigDb"></script>
+     -->
     <!-- Validation reCAPTCHA -->
     <!-- <script src="./assets/js/recaptcha-validation.js"></script> -->
 
@@ -136,16 +136,16 @@
               <!-- <ul>
                 <li><a class="active" href="./index.html">Accueil</a></li>
                 <li><a class="" href="./novais-energies-renouvelables.html">Novaïs</a></li>
-                <li><a class="" href="./nos-services.html">Nos services</a></li>
-                <li><a class="" href="./nos-tarifs.html">Tarifs</a></li>
-                <li><a class="" href="./nos-realisation.html">Nos réalisations</a></li>
-                <li><a class="" href="./devis.html">Devis</a></li>
-                <li><a class="" href="./contact.html">Contact</a></li>
+                <li><a class=""href="./nos-services.html">Nos services</a></li>
+                <li><a class=""href="./nos-tarifs.html">Tarifs</a></li>
+                <li><a class=""href="./nos-realisation.html">Nos réalisations</a></li>
+                <li><a class=""href="./devis.html">Devis</a></li>
+                <li><a class=""href="./contact.html">Contact</a></li>
               </ul> -->
 
               <ul>
                 <li><a class="" href="./index.html">Accueil</a></li>
-                <li><a class="" href="./novais-energies-renouvelables.html">Novaïs</a></li>
+                <li><a class="" href="href="./novais-energies-renouvelables.html"">Novaïs</a></li>
                 <li><a class="" href="./nos-services.html">Nos services</a></li>
                 <li><a class="" href="./nos-tarifs.html">Tarifs</a></li>
                 <li><a class="" href="./nos-realisation.html">Nos réalisations</a></li>
@@ -194,10 +194,10 @@
               <a class="" href="pompe-a-chaleur-91">Pompe à chaleur 91</a>
             </li>
             <li>
-              <a class="" href="./pompe-a-chaleur-bures-sur-yvette.html">Pompe à chaleur Bures-sur-Yvette</a>
+              <a class=""href="./pompe-a-chaleur-bures-sur-yvette.html">Pompe à chaleur Bures-sur-Yvette</a>
             </li>
             <li>
-              <a class="" href="./pompe-a-chaleur-villebon-sur-yvette.html">Pompe à chaleur Villebon-sur-Yvette</a>
+              <a class=""href="./pompe-a-chaleur-villebon-sur-yvette.html">Pompe à chaleur Villebon-sur-Yvette</a>
             </li>
             <li>
               <a class="" href="pompe-a-chaleur-palaiseau">Pompe à chaleur Palaiseau</a>
@@ -285,30 +285,30 @@
             <a class="" href="./novais-energies-renouvelables.html">Novais</a>
           </li>
           <li>
-            <a class="" href="./nos-services.html">Nos services</a>
+            <a class=""href="./nos-services.html">Nos services</a>
           </li>
           <li>
-            <a class="" href="./nos-tarifs.html">Nos tarifs</a>
+            <a class=""href="./nos-tarifs.html">Nos tarifs</a>
           </li>
           <li>
-            <a class="" href="./nos-realisation.html">Nos réalisations</a>
+            <a class=""href="./nos-realisation.html">Nos réalisations</a>
           </li>
           <li>
-            <a class="" href="./contact.html">Contact</a>
+            <a class=""href="./contact.html">Contact</a>
           </li>
           <li>
-            <a class="" href="./devis.html">Devis</a>
+            <a class=""href="./devis.html">Devis</a>
           </li>
           <li>
-            <a class="" href="./zone-intervention.html">Zone d'intervention</a>
+            <a class=""href="./zone-intervention.html">Zone d'intervention</a>
           </li>
           <li>
-            <a class="" href="./pompe-a-chaleur-villebon-sur-yvette.html">
+            <a class=""href="./pompe-a-chaleur-villebon-sur-yvette.html">
               Pompe à chaleur Villebon-sur-Yvette
             </a>
           </li>
           <li>
-            <a class="" href="./pompe-a-chaleur-bures-sur-yvette.html">
+            <a class=""href="./pompe-a-chaleur-bures-sur-yvette.html">
               Pompe à chaleur Bures-sur-Yvette
             </a>
           </li>
@@ -499,6 +499,7 @@
   </div>
 </footer>
 
+
 <script
   src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.0/jquery.min.js"
   integrity="sha512-h9kKZlwV1xrIcr2LwAPZhjlkx+x62mNwuQK5PAu9d3D+JXMNlGx8akZbqpXvp0vA54rz+DrqYVrzUGDMhwKmwQ=="
@@ -536,9 +537,25 @@
   crossorigin="anonymous"
 ></script>
 
+
+<script>
+  const currentPage = window.location.pathname.split('/').pop();
+  
+  if (currentPage === "nos-services.html") {
+
+    const script = document.createElement('script');
+    script.src = "https://code.jquery.com/jquery-3.5.1.min.js";
+    document.head.appendChild(script);
+  }
+</script>
+
+
+
 <script src="./assets/js/index.js"></script>
 <script src="./assets/js/formSubmit.js"></script>
 <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+
+
 
 
 <script>
